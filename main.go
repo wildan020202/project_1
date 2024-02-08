@@ -1,5 +1,5 @@
 package project_1
 
-func SayHai() string{
-	return "Hai Kawan ku"
+func SayHai(name string) string{
+	return "Hai Kawan ku " + name
 }
