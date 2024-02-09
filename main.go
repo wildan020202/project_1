@@ -1,5 +1,8 @@
 package project_1
 
-func SayHai(name string) string{
-	return "Hai Kawan ku " + name
+import "strconv"
+
+func SayHai(name string, age int) string{
+	return "Hai Kawan ku " + name + " " + strconv.Itoa(age)
 }
+
